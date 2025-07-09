@@ -1,9 +1,9 @@
-package com.SpringBoot.FoodDelivery.ServiceLayer.ServiceOrder.Model;
+package com.fooddelivery.service.order.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class orderEntity {
+public class Order {
     private String name;
     private List<String> orderList = new ArrayList<>();
     private boolean peakHour;
